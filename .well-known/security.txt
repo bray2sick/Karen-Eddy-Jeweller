@@ -1,0 +1,4 @@
+Contact: mailto:info@kareneddy.com.au
+Expires: 2025-03-11T13:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.kareneddy.com.au/.well-known/security.txt

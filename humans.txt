@@ -1,0 +1,21 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Development: Braydon Pettit
+  Site: https://bray2sick.github.io/
+  Location: Hobart, Australia
+
+/* THANKS */
+  TasTAFE
+  HTML5Boilerplate
+  Normalize.css
+  Eric A. Meyer
+  Fonts Awesome
+  You, for reading this.
+
+/* SITE */
+  Standards: HTML5, CSS3, W3C, WHATWG
+  Components: Fonts Awesome 6.7.2, Google Fonts (Merriweather, Spectral), Site Webmanifest
+  Software: Emmet, Prettier, EditorConfig, WebP, RealFaviconGenerator
+  IDE: VSCodium

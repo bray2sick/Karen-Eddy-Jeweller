@@ -2,19 +2,16 @@
 :root {
   --text-white: #ffffff;
   --text-black: #000000;
-
   --bg-white: #f3f4f6;
   --bg-grey: #767676;
   --bg-black: #000000;
   --bg-orange: #d0c19d;
-
   --bg-facebook: #0866ff;
   --bg-twitter: #55acef;
   --bg-x: #000000;
   --bg-google: #dd4b39;
   --bg-linkedin: #007bb6;
   --bg-youtube: #ff0000;
-
   --border-white: 1px solid #ffffff;
   --border-black: 1px solid #000000;
   --border-grey: 1px solid #767676;
@@ -38,13 +35,13 @@ h6 {
   font-family: 'Merriweather', serif;
 }
 
-/* CONTAINER */
+/* WEBSITE CONTAINER */
 .container {
   max-width: 80em;
   margin: 0 auto;
 }
 
-/* HEADER */
+/* HEADER + NAV */
 header {
   display: flex;
   justify-content: space-between;
@@ -192,7 +189,7 @@ hr {
 .home-gallery-grid {
   display: grid;
   gap: 3em;
-  padding: 1.5em 0em 1.5em 0em;
+  padding: 1.5em 0 1.5em 0;
   margin-bottom: 1.5em;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -219,15 +216,12 @@ hr {
   color: var(--bg-grey);
 }
 
-.book a:hover {
-  color: var(--bg-grey);
-}
-
 /* GALLERY */
 .gallery {
   margin-top: 1.5em;
   padding: 1.5em;
 }
+
 .gallery h1,
 h2,
 h3 {
@@ -249,7 +243,7 @@ h3 {
 
 .grid-container {
   padding-top: 1.5em;
-  margin: 1.5em 0em 3em 0;
+  margin: 1.5em 0 3em 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5em;
@@ -291,7 +285,7 @@ h3 {
 }
 
 .item-caption .price {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 .item-caption h3 {
@@ -359,7 +353,7 @@ form textarea {
 
 .ring-size {
   padding: 1.5em 5em;
-  margin: 0em 0em 3em 0em;
+  margin: 0 0 3em 0;
 }
 
 .ring-size h2 {
@@ -377,11 +371,11 @@ form textarea {
   margin-top: 3em;
   padding-bottom: 0.5em;
   font-weight: 300;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #999;
 }
 
 .ring-size .table {
-  padding: 1.5em 1.5em 0em 1.5em;
+  padding: 1.5em 1.5em 0 1.5em;
 }
 
 .ring-size table {
@@ -390,8 +384,8 @@ form textarea {
   width: 100%;
 }
 
-.ring-size th,
-.ring-size td {
+.ring-size td,
+.ring-size th {
   font-weight: 300;
   padding: 1em;
   text-align: center;
@@ -401,7 +395,7 @@ form textarea {
 .ring-size th {
   font-size: 1.375rem;
   color: var(--text-black);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .ring-size td {
@@ -409,7 +403,7 @@ form textarea {
 }
 
 .ring-size tr:nth-child(even) {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .bottom {
@@ -452,6 +446,10 @@ form textarea {
   color: var(--text-black);
   text-decoration: underline;
   transition: color 0.3s ease-in-out;
+}
+
+.book a:hover {
+  color: var(--bg-grey);
 }
 
 /* THANKS */
@@ -552,9 +550,9 @@ footer {
 }
 
 .facebook:hover,
-.twitter:hover,
 .google:hover,
 .linkedin:hover,
+.twitter:hover,
 .youtube:hover {
   background-color: var(--bg-black);
 }
@@ -621,14 +619,14 @@ footer {
   }
 
   .caption h2 {
-    padding: 0em 0em 0.25em 0em;
+    padding: 0 0 0.25em 0;
     width: 100%;
     border-right: none;
     border-bottom: var(--border-black);
   }
 
   .caption p {
-    padding: 0.375em 0em 0em 0em;
+    padding: 0.375em 0 0 0;
   }
 
   .about p {
@@ -656,7 +654,7 @@ footer {
   }
 
   .ring-size .table {
-    padding: 1.5em 0em 0em 0em;
+    padding: 1.5em 0 0 0;
   }
 
   .thanks h1 {
@@ -766,8 +764,9 @@ footer {
   .ring-size h3 {
     margin-top: 1.5em;
   }
-  .ring-size th,
-  .ring-size td {
+
+  .ring-size td,
+  .ring-size th {
     padding: 0.5em 0.2em;
     font-size: 0.875rem;
   }
